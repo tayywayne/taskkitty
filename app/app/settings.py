@@ -32,6 +32,10 @@ ALLOWED_HOSTS = []
 
 LOGIN_URL = '/users/login/'
 
+
+STATIC_URL = '/static/'
+
+
 INSTALLED_APPS = [
     "tasks.apps.TasksConfig",
     "users.apps.UsersConfig",
